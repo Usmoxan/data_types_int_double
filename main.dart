@@ -48,4 +48,13 @@ The absolute value is the value itself, if the value is non-negative, and -value
 */
   var a2 = 2.3;
   print(a1.abs());
+  
+  /* Returns the integer closest to this number.
+
+Rounds away from zero when there is no closest integer: (3.5).round() == 4 and (-3.5).round() == -4.*/
+  double n1= 2.654;
+  double n2= 16.25;
+  
+  print(n1.round());
+  print(n2.round());
 }
